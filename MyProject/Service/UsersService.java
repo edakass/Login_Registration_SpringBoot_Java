@@ -28,7 +28,6 @@ public class UsersService {
             usersModel.setPassword(password);
             usersModel.setEmail(email);
             return usersRepository.save(usersModel);
-
         }
     }
     public  UsersModel authenticate(String login,String password){
