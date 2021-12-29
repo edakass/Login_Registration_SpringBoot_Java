@@ -2,13 +2,10 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-   background: url(https://i.picsum.photos/id/986/3061/1682.jpg?hmac=rNktR9UATZt8iS_ik09vqwJKOLbchCnel5tVrFIvMyQ);
-    background-size: cover;
-    background-repeat: no-repeat;
-
-
+  background: url(https://i.picsum.photos/id/986/3061/1682.jpg?hmac=rNktR9UATZt8iS_ik09vqwJKOLbchCnel5tVrFIvMyQ);
+   background-size: cover;
+   background-repeat: no-repeat;
 }
-
 body::before {
   content: "";
   position: absolute;
@@ -16,10 +13,8 @@ body::before {
   left: 0;
   width: 25%;
   height: 100%;
-
   opacity: 0.8;
 }
-
 .form {
   position: absolute;
   top: 50%;
@@ -32,18 +27,15 @@ body::before {
   padding: 50px;
   box-sizing: border-box;
 }
-
 .form h2 {
   color: #777;
   margin: 0 0 40px;
   padding: 0;
 }
-
 .form .input-box {
   position: relative;
   margin: 20px 0;
 }
-
 .form .input-box input {
   width: 100%;
   font-size: 16px;
@@ -56,12 +48,10 @@ body::before {
   font-weight: bold;
   color: #777;
 }
-
 .form .input-box input:focus,
 .form .input-box input:valid {
   border-bottom-color: #03a9f4;
 }
-
 .form .input-box .fa {
   position: absolute;
   top: 8px;
@@ -69,7 +59,6 @@ body::before {
   font-size: 18px;
   color: #777;
 }
-
 .form .input-box input[type="submit"] {
   border: none;
   cursor: pointer;
@@ -78,11 +67,9 @@ body::before {
   font-weight: bold;
   transition: 0.5s;
 }
-
 .form .input-box input[type="submit"]:hover {
   background-color: #ff4987;
 }
-
 .form a {
   text-decoration: none;
   color: #777;
@@ -91,7 +78,6 @@ body::before {
   display: inline-block;
   transition: 0.5s;
 }
-
 .form a:hover {
   color: #ff4987;
 }
